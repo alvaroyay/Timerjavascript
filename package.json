@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-javascript-alvaro-garcia",
+  "version": "1.0.0",
+  "main": "timer.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-jest": "^29.7.0",
+    "css-loader": "^7.1.2",
+    "jest": "^29.7.0",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest" 
+    },
+    "moduleNameMapper": {
+      "^src/(.*)$": "<rootDir>/src/$1" 
+    }
+  }
+}
